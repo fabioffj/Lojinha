@@ -4,7 +4,6 @@ html {
     font-family: 'Times New Roman', Times, serif;
     color: antiquewhite;    
   }
-
 h1 {
     font-size: 500%;
     margin: 2%;
@@ -13,28 +12,32 @@ h1 {
     text-shadow: 0 0 50px #000000, 0 0 100px #818181, 0 0 150px #7c7c7c,
       0 0 200px #969696;
   }
-
-  .button {
+#coluna1 {
+    width: 33%;
+    float: left;
+  }
+#coluna2 {
+    width: 34%;
+    float: left;
+  }
+#coluna3 {
+    width: 33%;
+    float: right;
+  }
+.imagens {
     cursor: pointer;    
     transition-duration: 0.5s;
     transition-property: transform;
-    width: 15%;
-    margin: 5%;
+    width: 50%;
+    margin: 25%;
   }
-
-  .button:hover {
+.imagens:hover {
     transform: scale(1.5);
   }
-
-  .container {
-    margin: auto;
-    width: 100%;
-  }
-
-  #instagram,
-  #codepen,
-  #github,
-  #facebook {
+#instagram,
+#codepen,
+#github,
+#facebook {
     font-size: 500%;
     color: antiquewhite;
     padding: 5% 5%;
