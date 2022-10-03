@@ -4,6 +4,7 @@ html {
     font-family: 'Times New Roman', Times, serif;
     color: antiquewhite;    
     font-size: x-large;
+    width: 100vw;
   }
 
 h1 {
@@ -18,12 +19,13 @@ h1 {
 #roupas {
   cursor: default;
   display: inline-flex;
-  padding-top: 0;
+  padding-top: 0;  
 }
 
 #coluna1 {
     width: 33%;     
     margin: 5%;
+    
   }
 
 #coluna2 {
@@ -38,17 +40,20 @@ h1 {
 
   .textos {    
     width: 90%;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    overflow: hidden;
   }
 
 .zoom {
     transition-duration: 0.5s;
     transition-property: transform;
-    overflow: hidden;    
+    overflow: hidden;
     border-radius: 8px;
     border: 1px solid #bcc0c3;
     padding: 5%;
     margin-bottom: 20%;
-    }
+    background: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(53, 53, 53));    }
 
 .zoom:hover {    
     transform: scale(1.5);
@@ -56,7 +61,7 @@ h1 {
 
 .imagens {
     cursor: pointer;
-    width: 50%;
+    width: 95%;
   }
 
 #instagram,
@@ -69,4 +74,4 @@ h1 {
     animation: animate 3s linear infinite;
     text-shadow: 0 0 50px #000000, 0 0 100px #818181, 0 0 150px #7c7c7c,
       0 0 200px #969696;
-  }
+  }  
