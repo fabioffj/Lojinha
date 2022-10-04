@@ -14,7 +14,12 @@ h1 {
     padding: 5% 5%;
     text-shadow: 0 0 50px #000000, 0 0 100px #818181, 0 0 150px #7c7c7c,
       0 0 200px #969696;
-  }
+}
+
+img {
+  max-width: 150px;
+  max-height: 150px;
+}
 
 #roupas {
   cursor: default;
@@ -23,19 +28,18 @@ h1 {
 }
 
 #coluna1 {
-    width: 33%;     
-    margin: 5%;
-    
+    width: 33%;
+    margin: 30px;
   }
 
 #coluna2 {
-    width: 33%;        
-    margin: 5%;
+    width: 33%;
+    margin: 30px;
   }
 
 #coluna3 {
-    width: 33%;    
-    margin: 5%;    
+    width: 33%;
+    margin: 30px;    
   }
 
   .textos {    
@@ -53,7 +57,12 @@ h1 {
     border: 1px solid #bcc0c3;
     padding: 5%;
     margin-bottom: 20%;
-    background: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(53, 53, 53));    }
+    background: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(53, 53, 53));
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 350px;
+    min-height: 350px;
+  }
 
 .zoom:hover {    
     transform: scale(1.5);
