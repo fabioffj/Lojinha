@@ -5,7 +5,7 @@ html {
     color: antiquewhite;    
     font-size: x-large;
     width: 100vw;
-  }
+}
 
 h1 {
     font-size: 500%;
@@ -30,24 +30,24 @@ img {
 #coluna1 {
     width: 33%;
     margin: 30px;
-  }
+}
 
 #coluna2 {
     width: 33%;
     margin: 30px;
-  }
+}
 
 #coluna3 {
     width: 33%;
-    margin: 30px;    
-  }
+    margin: 30px;   
+}
 
-  .textos {    
+.textos {    
     width: 90%;
     transition-duration: 0.5s;
     transition-property: transform;
     overflow: hidden;
-  }
+}
 
 .zoom {
     transition-duration: 0.5s;
@@ -62,16 +62,16 @@ img {
     min-width: 200px;
     max-height: 350px;
     min-height: 350px;
-  }
+}
 
-.zoom:hover {    
+.zoom:hover {
     transform: scale(1.3);
-  }
+}
 
 .imagens {
     cursor: pointer;
     width: 95%;
-  }
+}
 
 #instagram,
 #codepen,
@@ -80,7 +80,6 @@ img {
     font-size: 500%;
     color: antiquewhite;    
     margin: 5%;
-    animation: animate 3s linear infinite;
     text-shadow: 0 0 50px #000000, 0 0 100px #818181, 0 0 150px #7c7c7c,
       0 0 200px #969696;
-  }  
+}
