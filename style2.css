@@ -46,6 +46,9 @@ p {
 }
 
 .zoom {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
     transition-duration: 0.5s;
     transition-property: transform;
     overflow: hidden;
