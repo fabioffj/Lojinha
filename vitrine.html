@@ -7,18 +7,23 @@
   <link rel="stylesheet" href="style2.css">
   <link rel="icon" type="image/x-icon" href="./imagens/favicon man suit.jpg">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-  <div>
-    <h1>Roupa de Homem</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Roupa de Homem</h1>
+      </div>
+    </div>
   </div>
-  <div id="roupas">
-    <div id="coluna1">
+  <div class="row">
+    <div class="col">
       <div class="zoom">
         <img class="imagens" src="./imagens/camisa xadrez.jpeg" alt="">
-        <p class="textos">Camisa Xadrez Preta e Branco</p>
-        <p class="textos">Tamanho P</p>
-        <p class="textos">R$ 150,00</p>
+        <p>Camisa Xadrez Preta e Branco</p>
+        <p>Tamanho P</p>
+        <p>R$ 150,00</p>
       </div>
       <div class="zoom">
         <img class="imagens" src="./imagens/camisa xadrez.jpeg" alt="">
@@ -33,7 +38,7 @@
         <p>Preço R$</p>
       </div>      
     </div>
-    <div id="coluna2">
+    <div class="col">
       <div class="zoom">
         <img class="imagens" src="./imagens/Calca-Masculina-Slim-Color-Detalhe--.jpg" alt="">
         <p class="textos">Calça Sarja Preta</p>
@@ -53,7 +58,7 @@
         <p>Preço R$</p>
       </div>
     </div>
-    <div id="coluna3">
+    <div class="col">
       <div class="zoom">
         <img class="imagens" src="./imagens/sapato.jpg" alt="">
         <p class="textos">Sapato Cano Alto Camurça Marrom</p>
@@ -74,11 +79,20 @@
       </div>
     </div>
   </div>
-  <div>
-    <a href="https://instagram.com/jaenischfabio"><i class="fa fa-instagram" id="instagram"></i></a>
-    <a href="https://codepen.io/fabioffj"><i class="fa fa-codepen" id="codepen"></i></a>
-    <a href="https://github.com/fabioffj"><i class="fa fa-github-square github" id="github"></i></a>
-    <a href="https://facebook.com/fabio.jaenisch"><i class="fa fa-facebook-square" id="facebook"></i></a>
+  <div class="row">
+    <div class="col">
+      <a href="https://github.com/fabioffj"><i class="fa fa-github-square github" id="github"></i></a>
+    </div>
+    <div class="col">
+      <a href="https://codepen.io/fabioffj"><i class="fa fa-codepen" id="codepen"></i></a>
+    </div>
+    <div class="col">
+      <a href="https://instagram.com/jaenischfabio"><i class="fa fa-instagram" id="instagram"></i></a>
+    </div>
+    <div class="col">
+      <a href="https://facebook.com/fabio.jaenisch"><i class="fa fa-facebook-square" id="facebook"></i></a>
+    </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
 </html>
