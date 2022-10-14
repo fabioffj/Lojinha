@@ -1,62 +1,70 @@
 body {
-    background: linear-gradient(to bottom right, rgb(24, 24, 24),rgb(36, 36, 36), rgb(53, 53, 53), rgb(73, 73, 73));
-    font-family: 'Times New Roman', Times, serif !important;
-    color: antiquewhite !important;
-    font-size: x-large !important;
-    cursor: default;
+  background: linear-gradient(to bottom right, rgb(24, 24, 24),rgb(36, 36, 36), rgb(53, 53, 53), rgb(73, 73, 73));
+  font-family: 'Times New Roman', Times, serif !important;
+  color: antiquewhite !important;
+  font-size: x-large !important;
+  cursor: default;
 }
 
 a {
-  color: antiquewhite !important;
-  text-decoration: none !important;
+color: antiquewhite !important;
+text-decoration: none !important;
 }
 
 .row {
-    text-align: center !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin-top: 15vw !important;
-    margin-bottom: 15vw !important;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 15vw !important;
+  margin-bottom: 15vw !important;
 }
 
 h1 {
-    font-size: 7vw !important;
-    animation: animate 3s linear infinite;
-    text-shadow: 0 0 50px antiquewhite, 0 0 100px antiquewhite, 0 0 150px antiquewhite,
-      0 0 200px antiquewhite;
-    font-weight: bold !important;
+  font-size: 7vw !important;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px antiquewhite, 0 0 100px antiquewhite, 0 0 150px antiquewhite,
+    0 0 200px antiquewhite;
+  font-weight: bold !important;
+}
+
+#button {
+font-size: 3vw;
+text-shadow: 0 0 50px antiquewhite, 0 0 100px antiquewhite, 0 0 150px antiquewhite,
+0 0 200px antiquewhite !important;
+}
+
+#button:hover {
+color: black !important; /*Ver como corrigir isso dps*/
 }
 
 #github,
 #codepen,
 #instagram,
 #facebook {
-  font-size: 7vw;
-  background-color: #18191f;
-  color: antiquewhite;
-  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
-    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
-    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
-    inset 2px 2px 10px #00000080;
-  border-radius: 10px;
-  padding: 10px 10px;
-  margin: 4px;  
-  animation: animate 3s linear infinite;
-  text-shadow: 0 0 50px antiquewhite, 0 0 100px antiquewhite, 0 0 150px antiquewhite,
-    0 0 200px antiquewhite;
+font-size: 7vw;
+color: antiquewhite;
+border-radius: 10px;
+padding: 10px 10px;
+margin: 4px;  
+animation: animate 5s linear infinite !important;
+text-shadow: 0 0 50px antiquewhite, 0 0 100px antiquewhite, 0 0 150px antiquewhite,
+0 0 200px antiquewhite !important;
+}
+#gihub {
+animation-duration: 6s;
 }
 #codepen {
-  animation-delay: 0.1s;
-}
-#facebook {
-  animation-delay: 0.3s;
+animation-duration: 7s;
 }
 #instagram {
-  animation-delay: 0.2s;
+animation-duration: 8s;
+}
+#facebook {
+animation-duration: 9s;
 }
 
 @keyframes animate {
-    0% {filter: brightness(75%);}
-    50% {filter: brightness(150%);}
-    100%{filter: brightness(75%);}
+  0% {filter: brightness(75%);}
+  50% {filter: brightness(150%);}
+  100%{filter: brightness(75%);}
 }
