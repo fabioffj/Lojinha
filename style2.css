@@ -3,9 +3,9 @@ body {
     align-items: center !important;
     text-align: center !important;
     justify-content: center !important;
-    background: linear-gradient(to bottom right, rgb(24, 24, 24),rgb(36, 36, 36), rgb(53, 53, 53), rgb(73, 73, 73));
+    background: linear-gradient(to bottom right, rgb(24, 24, 24),rgb(36, 36, 36), rgb(53, 53, 53), rgb(73, 73, 73)) !important;
     color: antiquewhite !important;
-    font-size: 1vw !important;
+    font-size: 1.5vw !important;
     font-weight: bold !important;
     cursor: default;
     color: antiquewhite !important;
@@ -23,18 +23,29 @@ h1 {
     0 0 10vw #969696;
 }
 
-.row {
-    margin-top: 7vw;
-    margin-bottom: 7vw;
+h5 {
+    font-size: 3vw !important;
+    font-weight: bold !important;
 }
 
-.zoom {    
+.row {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.col {
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;;
+}
+
+.zoom {
     align-items: center !important;
     text-align: center !important;
     justify-content: center !important;
     border: 1px solid antiquewhite !important;
     border-radius: 10px !important;
-    margin: 0px 2vw 2vw 2vw;
+    margin: 3vw 3vw 7vw 3vw;
     max-height: 30vw;
     min-height: 30vw;
     background: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(53, 53, 53));

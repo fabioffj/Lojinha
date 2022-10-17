@@ -33,10 +33,11 @@ text-shadow: 0 0 50px antiquewhite, 0 0 100px antiquewhite, 0 0 150px antiquewhi
 0 0 200px antiquewhite !important;
 }
 
-#button:hover {
-color: black !important; /*Ver como corrigir isso dps*/
+a:hover {
+color: rgb(36, 36, 36) !important;
 }
 
+#button,
 #github,
 #codepen,
 #instagram,
@@ -46,25 +47,13 @@ color: antiquewhite;
 border-radius: 10px;
 padding: 10px 10px;
 margin: 4px;  
-animation: animate 5s linear infinite !important;
+animation: animate 3s linear infinite !important;
 text-shadow: 0 0 50px antiquewhite, 0 0 100px antiquewhite, 0 0 150px antiquewhite,
 0 0 200px antiquewhite !important;
 }
-#gihub {
-animation-duration: 6s;
-}
-#codepen {
-animation-duration: 7s;
-}
-#instagram {
-animation-duration: 8s;
-}
-#facebook {
-animation-duration: 9s;
-}
 
 @keyframes animate {
-  0% {filter: brightness(75%);}
+  0% {filter: brightness(50%);}
   50% {filter: brightness(150%);}
-  100%{filter: brightness(75%);}
+  100%{filter: brightness(50%);}
 }
