@@ -5,7 +5,6 @@ body {
     justify-content: center !important;
     background: linear-gradient(to bottom right, rgb(24, 24, 24),rgb(36, 36, 36), rgb(53, 53, 53), rgb(73, 73, 73)) !important;
     color: antiquewhite !important;
-    font-size: 1.5vw !important;
     font-weight: bold !important;
     cursor: default;
     color: antiquewhite !important;
@@ -29,8 +28,8 @@ h5 {
 }
 
 .row {
-    margin-top: 10vw;
-    margin-bottom: 10vw;
+    margin-top: 20vw;
+    margin-bottom: 20vw;
 }
 
 .col {
@@ -43,11 +42,12 @@ h5 {
     align-items: center !important;
     text-align: center !important;
     justify-content: center !important;
+    font-size: 2vw;
     border: 1px solid antiquewhite !important;
     border-radius: 10px !important;
     margin: 3vw 3vw 7vw 3vw;
-    max-height: 30vw;
-    min-height: 30vw;
+    max-height: 40vw;
+    min-height: 40vw;
     background: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(53, 53, 53));
     transition-duration: 0.5s;
     transition-property: transform;
