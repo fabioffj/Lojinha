@@ -20,6 +20,7 @@ h1 {
     font-weight: bold !important;
     text-shadow: 0 0 5vw #000000, 0 0 10vw #818181, 0 0 10vw #7c7c7c,
     0 0 10vw #969696;
+    margin: 10vw 0px 10vw 0px !important;
 }
 
 h5 {
@@ -28,8 +29,8 @@ h5 {
 }
 
 .row {
-    margin-top: 20vw;
-    margin-bottom: 20vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 .col {
@@ -45,7 +46,7 @@ h5 {
     font-size: 2vw;
     border: 1px solid antiquewhite !important;
     border-radius: 10px !important;
-    margin: 3vw 3vw 7vw 3vw;
+    margin: 3vw 1vw 8vw 1vw;
     max-height: 40vw;
     min-height: 40vw;
     background: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(53, 53, 53));
@@ -54,12 +55,16 @@ h5 {
 }
 
 .zoom:hover {
-    transform: scale(1.5) !important;
+    transform: scale(1.4) !important;
 }
 
 img {
     max-width: 10vw;
     margin: 2vw 0px 1vw 0px;
+}
+
+#icons {
+    margin: 10vw 0px 10vw 0px;
 }
 
 #instagram,
