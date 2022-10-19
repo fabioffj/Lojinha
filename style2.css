@@ -48,6 +48,7 @@ h5 {
     border: 1px solid antiquewhite !important;
     border-radius: 10px !important;
     margin: 3vw 1vw 8vw 1vw;
+    padding: 1vw;
     max-height: 40vw;
     min-height: 40vw;
     background: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(53, 53, 53));
