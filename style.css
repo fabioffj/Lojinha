@@ -57,3 +57,14 @@ text-shadow: 0 0 50px antiquewhite, 0 0 100px antiquewhite, 0 0 150px antiquewhi
   50% {filter: brightness(150%);}
   100%{filter: brightness(50%);}
 }
+
+.breadcrumb {
+  background-color: transparent !important;
+  color: antiquewhite !important;
+  font-size: 2vw;
+}
+
+.container {
+  max-width: 95vw;
+  min-width: 95vw;
+}

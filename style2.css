@@ -7,7 +7,6 @@ body {
     color: antiquewhite !important;
     font-weight: bold !important;
     cursor: default;
-    color: antiquewhite !important;
 }
 
 a {
@@ -26,6 +25,7 @@ h1 {
 h5 {
     font-size: 3vw !important;
     font-weight: bold !important;
+    margin-bottom: 8vw !important;
 }
 
 .row {
@@ -36,7 +36,8 @@ h5 {
 .col {
     align-items: center !important;
     text-align: center !important;
-    justify-content: center !important;;
+    justify-content: center !important;
+    padding: 0px 1vw 0px 1vw !important;
 }
 
 .zoom {
@@ -76,4 +77,15 @@ img {
     margin: 5%;
     text-shadow: 0 0 5vw #000000, 0 0 6vw #818181, 0 0 6vw #7c7c7c,
     0 0 10vw #969696;
+}
+
+.breadcrumb {
+    background-color: transparent !important;
+    color: antiquewhite !important;
+    font-size: 2vw;
+}
+
+.container {
+    max-width: 95vw;
+    min-width: 95vw;
 }
