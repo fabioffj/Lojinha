@@ -5,8 +5,7 @@ body {
     justify-content: center !important;
     background: linear-gradient(to bottom right, rgb(24, 24, 24),rgb(36, 36, 36), rgb(53, 53, 53), rgb(73, 73, 73)) !important;
     color: antiquewhite !important;
-    font-weight: bold !important;
-    cursor: default;
+    font-weight: bold !important;    
 }
 
 a {
@@ -78,6 +77,13 @@ img {
     margin: 5%;
     text-shadow: 0 0 5vw #000000, 0 0 6vw #818181, 0 0 6vw #7c7c7c,
     0 0 10vw #969696;
+}
+
+#whatsapp {
+    font-size: 4vw;
+    color: antiquewhite;
+    text-shadow: 0 0 5vw #000000, 0 0 6vw #818181, 0 0 6vw #7c7c7c,
+    0 0 10vw #969696;  
 }
 
 .breadcrumb {
