@@ -5,7 +5,8 @@ body {
     justify-content: center !important;
     background: linear-gradient(to bottom right, rgb(24, 24, 24),rgb(36, 36, 36), rgb(53, 53, 53), rgb(73, 73, 73)) !important;
     color: antiquewhite !important;
-    font-weight: bold !important;    
+    font-weight: bold !important;
+    cursor: default;
 }
 
 a {
